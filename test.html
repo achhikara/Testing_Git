@@ -14,6 +14,7 @@
     
     //dhaskdhjaskjhdas;d
     //kasjhdakjhdkajhdkjash
+    
 var width = 960,
     height = 500;
 var svg = d3.select("body").append("svg")
@@ -37,6 +38,9 @@ d3.csv("Testdata.csv", function(error, links) {
     .enter().append("line")
       .attr("class", "link");
   // Create the node circles.
+    
+  // sljadkjalskjdlaskj
+
   var node = svg.selectAll(".node")
       .data(nodes)
     .enter().append("circle")
